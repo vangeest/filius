@@ -8,9 +8,11 @@ Met deze repository kun je aan de slag met Filius zonder het te installeren. Daa
 ## Filius starten
 Voer de volgende stappen uit om een Codespace met Filius te starten:
 1. Klik hierboven op de zwarte knop 'Open in GitHub Codespaces'.
-2. Wanneer je workspace klaar is met opstarten (dit kan enkele minuten duren), dan zie je iets onder het midden van je scherm een tab "Ports" met daarnaast een blauw bolletje. Klik daarop.
-3. Beweeg met je muis naar de regel met 6080. Klik op het wereldbolletje dat op de regel verschijnt. Hiermee open je Filius in een nieuw browservenster.
-4. Wil Filiusnetwerken opslaan voor later gebruik? Doe dit in de map 'filius-bestanden'.
+2. Klik dan op 'Create new codespace'.
+3. Wanneer je workspace klaar is met opstarten (dit kan enkele minuten duren), dan zie je iets onder het midden van je scherm een tab "Ports" met daarnaast een blauw bolletje. Klik daarop.
+4. Beweeg met je muis naar de regel met 6080. Klik op het wereldbolletje dat op de regel verschijnt.
+5. Er opent een nieuw browservenster. Ga naar het nieuw browservenster en druk op 'Connect'. Hiermee start je Filius.
+6. Wil Filiusnetwerken opslaan voor later gebruik? Doe dit in de map 'filius-bestanden'.
 
 ## Problemen oplossen
 De volgende stappen kunnen helpen bij het oplossen van problemen:
