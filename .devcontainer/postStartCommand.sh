@@ -1,13 +1,9 @@
 # executed each time the container is (re)started
 # commands should terminate, use nohup otherwise
-
-WORKSPACE_DIR="$(pwd)"
+# script is started from workspace folder (i.e. workspace/filius)
 
 # set language of Filius
 sudo sed -i 's/# locale=en_GB/locale=en_GB/' /etc/filius/filius.ini 
-
-# link 'filius bestanden'
-ln -sf "${WORKSPACE_DIR}/filius-bestanden" '/home/codespace/filius-bestanden'
 
 # wait for DISPLAY to start
 until xdpyinfo -display "${DISPLAY:-:1}"; do 
@@ -16,8 +12,7 @@ until xdpyinfo -display "${DISPLAY:-:1}"; do
 done
 
 # start filius and leave it running in background
-cd "${WORKSPACE_DIR}/filius-bestanden"
-nohup bash -c 'filius > ../.devcontainer/.nohup_filius.out 2>&1 & rm nohup.out &'
+nohup bash -c 'filius > .devcontainer/.nohup_filius.out 2>&1 & rm nohup.out &'
 
 # wait for FILIUS window
 until wmctrl -l| grep -q FILIUS ; do 
