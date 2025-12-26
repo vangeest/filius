@@ -12,17 +12,16 @@ Voer de volgende stappen uit om een Codespace met Filius te starten:
 3. Wanneer je workspace klaar is met opstarten (dit kan enkele minuten duren), dan zie je iets onder het midden van je scherm een tab "Ports" met daarnaast een blauw bolletje. Klik daarop.
 4. Beweeg met je muis naar de regel met 6080. Klik op het wereldbolletje dat op de regel verschijnt. Dit opent Filius in een nieuw browservenster.
 
-
-
 ## Werk opslaan en downloaden
-Je kan een Filiusnetwerken opslaan voor later gebruik.
-
+Je kan een Filiusnetwerk opslaan voor later gebruik.
 1. Druk in Filius op het icoon voor opslaan.
 2. Sla het .fls bestand op in de map 'filius-bestanden'.
 
-Je kunt je werk downloaden (om bijvoorbeeld in te leveren).
+Je kan je werk downloaden (om bijvoorbeeld in te leveren).
 1. Ga naar de map 'filius-bestanden' in Visual Studio Code.
 2. Klik met je rechtermuisknop op het bestand en kies 'Downloaden'
+
+Een Codespace met Filius is niet bedoeld om bestanden op te slaan op GitHub.
 
 ## Problemen oplossen
 De volgende stappen kunnen helpen bij het oplossen van problemen:
