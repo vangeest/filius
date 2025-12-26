@@ -9,7 +9,7 @@ until xdpyinfo -display "${DISPLAY:-:1}" | head -5; do
 done
 
 # start filius and leave it running in background
-nohup bash -c 'filius > .devcontainer/.nohup_filius.out 2>&1 & rm nohup.out &'
+nohup bash -c 'filius > .nohup_filius.out 2>&1 & rm nohup.out &'
 
 # wait for FILIUS window
 until wmctrl -l| grep -q FILIUS ; do 
